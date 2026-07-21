@@ -77,7 +77,7 @@ function render(step) {
     extraHTML += `
         <div class="music-card">
             <img src="https://img.youtube.com/vi/${step.video}/hqdefault.jpg">
-            <a href="https://www.youtube.com/watch?v=${step.video}" target="_blank">▶ Xem clip</a>
+            <a href="https://www.youtube.com/watch?v=${step.video}" target="_blank">▶ XEM!</a>
         </div>
     `;
     }
@@ -86,7 +86,7 @@ function render(step) {
         extraHTML += `
             <div class="music-card">
                 <img src="https://img.youtube.com/vi/${videoId}/hqdefault.jpg">
-                <a href="${step.music}" target="_blank">▶ NGHE! </a>
+                <a href="${step.music}" target="_blank">▶ NGHE!</a>
             </div>
         `;
         confetti({
