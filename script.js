@@ -1,27 +1,27 @@
 const steps = [
     {
-        title: "Ê thằng lz.",
-        description: "Bố có cái này cho m.",
-        button: "Bấm cái nút cc này."
+        title: "Ê thằng lon.",
+        description: "Bố có cái này cho m xem.",
+        button: "Bấm nút này."
     },
     {
-        title: "Bình tĩnh.",
-        description: "Vội thế.",
-        button: "Bấm tiếp cái đb này."
+        title: "Chú cứ bình tĩnh.",
+        description: "Vội quá.",
+        button: "Bấm tiếp."
     },
     {
-        title: "Ừ thì nay là...",
-        description: "Sinh nhật m.",
-        button: "Tiếp."
+        title: "Nay ngày gì chắc chú biết r nhỉ.",
+        description: "Nên là...?",
+        button: "Lếch."
     },
     {
-        title: "Nên là...CMSN?",
-        description: "Điểm Văn tôi như bìu nên để anh ở dưới chúc b nhé.",
-        button: "Tiếp.",
+        title: ".....CMSN?",
+        description: "Anh ở dưới thay tôi chúc nhé.",
+        button: "Quà ở trang sau.",
         video: "rxxPqzRHsGA"
     },
     {
-        title: "Còn đây là quà của b.",
+        title: "Co cai dau buoi.",
         description: "Co cai dau buoi.",
         button: "Tiếp.",
         image: "assets/images/money.jpg" 
