@@ -59,7 +59,6 @@ function render(step) {
     nextButton.textContent = step.button;
     const percent = ((currentStep + 1) / steps.length) * 100;
     progressFill.style.width = `${percent}%`;
-
     if (currentStep === 0) {
     backButton.style.display = "none";
     } else {
@@ -114,11 +113,9 @@ nextButton.addEventListener("click", () => {
 });
 backButton.addEventListener("click", () => {
     if (isAnimating) return;
-
     if (currentStep > 0) {
         isAnimating = true;
         card.classList.add("fade");
-
         setTimeout(() => {
             currentStep--;
             render(steps[currentStep]);
