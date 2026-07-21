@@ -5,12 +5,12 @@ const steps = [
         button: "Tiếp."
     },
     {
-        title: "Khoan.",
-        description: "Đọc hết đã.",
+        title: "Bình tĩnh.",
+        description: "Vội thế.",
         button: "Tiếp."
     },
     {
-        title: "Ừ thì.",
+        title: "Ừ thì nay là...",
         description: "Sinh nhật mày.",
         button: "Tiếp."
     },
