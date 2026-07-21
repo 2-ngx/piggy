@@ -1,8 +1,8 @@
 const steps = [
     {
         title: "Ê thằng lon.",
-        description: "Bố có cái này cho m xem.",
-        button: "Bấm nút này."
+        description: "Bố có cái này cho m.",
+        button: "Bấm nút."
     },
     {
         title: "Chú cứ bình tĩnh.",
@@ -22,24 +22,24 @@ const steps = [
     },
     {
         title: "Co cai dau buoi.",
-        description: "Co cai dau buoi.",
-        button: "Tiếp.",
+        description: "Không làm mà đòi có ăn thì...",
+        button: "TIẾP!",
         image: "assets/images/money.jpg" 
     },
     {
         title: "Đùa th, đây ms quà thật.",
         description: "...",
-        button: "Quà thật ở trang sau.",
+        button: "Không đùa nx, tiếp theo là quà thật.",
         image: "assets/images/selfie.jpg" 
     },
     {
-        title: "Chả có mẹ gì ở đây hết.",
+        title: "MƠ À EM?",
         description: ":)))",
-        button: "Tiếp."
+        button: "NEXT!"
     },
     {
-        title: "Tóm lại là CMSN thằng l.",
-        description: "Thôi, hết rồi.",
+        title: "Hết mẹ r.",
+        description: "Chuc mung sinh nhat thang lon.",
         button: "Xong.",
         music: "https://www.youtube.com/watch?v=CGfM-PN3qcs"
     }
