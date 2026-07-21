@@ -15,6 +15,12 @@ const steps = [
         button: "Tiếp."
     },
     {
+        title: "Happy Birthday.",
+        description: "Thôi, hết thật rồi.",
+        button: "Xong.",
+        music: "https://www.youtube.com/watch?v=rxxPqzRHsGA"
+    }
+    {
         title: "Quà của b đây.",
         description: ":))).",
         button: "Tiếp.",
