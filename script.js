@@ -1,7 +1,7 @@
 const steps = [
     {
         title: "Ê thằng lon.",
-        description: "Bố có cái này cho m.",
+        description: "Bố có cái này.",
         button: "Bấm nút."
     },
     {
@@ -10,12 +10,12 @@ const steps = [
         button: "Bấm tiếp."
     },
     {
-        title: "Nay ngày gì chắc chú biết r nhỉ.",
+        title: "Nay ngày gì chắc chú biết r nhỉ?",
         description: "Nên là...?",
-        button: "Lếch."
+        button: "TIẾP!"
     },
     {
-        title: ".....CMSN?",
+        title: "....CMSN?....",
         description: "Anh ở dưới thay tôi chúc nhé.",
         button: "Quà ở trang sau.",
         video: "rxxPqzRHsGA"
@@ -23,19 +23,19 @@ const steps = [
     {
         title: "Co cai dau buoi.",
         description: "Không làm mà đòi có ăn thì...",
-        button: "TIẾP!",
+        button: "Đùa th, trang sau quà thật.",
         image: "assets/images/money.jpg" 
     },
     {
-        title: "Đùa th, đây ms quà thật.",
-        description: "...",
+        title: "...",
+        description: "CÓ CÁI L!",
         button: "Không đùa nx, tiếp theo là quà thật.",
         image: "assets/images/selfie.jpg" 
     },
     {
         title: "MƠ À EM?",
         description: ":)))",
-        button: "NEXT!"
+        button: "LẾCH!"
     },
     {
         title: "Hết mẹ r.",
