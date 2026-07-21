@@ -11,34 +11,34 @@ const steps = [
     },
     {
         title: "Ừ thì nay là...",
-        description: "Sinh nhật mày.",
+        description: "Sinh nhật m.",
         button: "Tiếp."
     },
     {
-        title: "Happy Birthday.",
-        description: "Thôi, hết thật rồi.",
-        button: "Xong.",
+        title: "Nên là...CMSN?",
+        description: "Điểm Văn tôi như bìu nên để anh ở dưới chúc b nhé.",
+        button: "Tiếp.",
         music: "https://www.youtube.com/watch?v=rxxPqzRHsGA"
     },
     {
-        title: "Quà của b đây.",
-        description: ":))).",
+        title: "Còn đây là quà của b.",
+        description: "Co cai dau buoi.",
         button: "Tiếp.",
         image: "assets/images/money.jpg" 
     },
     {
-        title: ":)))",
-        description: "Bố mất công code đấy.",
-        button: "Tiếp."
-    },
-    {
         title: "Đùa th, đây ms quà thật.",
         description: "...",
-        button: "Tiếp.",
+        button: "Quà thật ở trang sau.",
         image: "assets/images/selfie.jpg" 
     },
     {
-        title: "Happy Birthday.",
+        title: "Chả có mẹ gì ở đây hết.",
+        description: ":)))",
+        button: "Tiếp."
+    },
+    {
+        title: "Tóm lại là CMSN thằng l.",
         description: "Thôi, hết thật rồi.",
         button: "Xong.",
         music: "https://www.youtube.com/watch?v=CGfM-PN3qcs"
