@@ -64,6 +64,7 @@ function render(step) {
     backButton.style.display = "none";
     } else {
     backButton.style.display = "block";
+    }
     if (currentStep === steps.length - 1) {
         nextButton.style.display = "none";
     } else {
@@ -96,7 +97,6 @@ function render(step) {
         });
     }
     extra.innerHTML = extraHTML;
-}
 }
 render(steps[currentStep]);
 nextButton.addEventListener("click", () => {
