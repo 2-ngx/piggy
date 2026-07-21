@@ -37,9 +37,8 @@ body {
     gap: 16px;
     margin-top: 20px;
 }
-
 .buttons button {
-    min-width: 120px;
+    min-width: 160px;
 }
 #back-btn {
     display: none;
@@ -89,7 +88,6 @@ button:active{
 #extra {
     margin-top: 24px;
 }
-
 #extra iframe {
     width: 100%;
     border: none;
@@ -102,12 +100,10 @@ button:active{
     overflow: hidden;
     background: white;
 }
-
 .music-card img {
     width: 100%;
     display: block;
 }
-
 .music-card a {
     display: block;
     padding: 14px;
@@ -117,7 +113,6 @@ button:active{
     font-weight: 600;
     transition: 0.2s;
 }
-
 .music-card a:hover {
     background: #1d4ed8;
 }
@@ -125,10 +120,12 @@ button:active{
     .card {
         padding: 24px;
     }
-
     h1 {
         font-size: 2rem;
     }
+    .buttons button {
+    min-width: 120px;
+}
 }
 .step-image {
     width: 100%;
