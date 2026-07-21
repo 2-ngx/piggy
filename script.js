@@ -1,7 +1,7 @@
 const steps = [
     {
-        title: "Ê .",
-        description: "Có cái này.",
+        title: "Ê thằng lz.",
+        description: "Bố có cái này cho m.",
         button: "Tiếp."
     },
     {
