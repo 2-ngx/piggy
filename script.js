@@ -2,12 +2,12 @@ const steps = [
     {
         title: "Ê thằng lz.",
         description: "Bố có cái này cho m.",
-        button: "Tiếp."
+        button: "Bấm cái nút cc này."
     },
     {
         title: "Bình tĩnh.",
         description: "Vội thế.",
-        button: "Tiếp."
+        button: "Bấm tiếp cái đb này."
     },
     {
         title: "Ừ thì nay là...",
@@ -18,7 +18,7 @@ const steps = [
         title: "Nên là...CMSN?",
         description: "Điểm Văn tôi như bìu nên để anh ở dưới chúc b nhé.",
         button: "Tiếp.",
-        music: "https://www.youtube.com/watch?v=rxxPqzRHsGA"
+        video: "https://www.youtube.com/watch?v=rxxPqzRHsGA"
     },
     {
         title: "Còn đây là quà của b.",
@@ -39,7 +39,7 @@ const steps = [
     },
     {
         title: "Tóm lại là CMSN thằng l.",
-        description: "Thôi, hết thật rồi.",
+        description: "Thôi, hết rồi.",
         button: "Xong.",
         music: "https://www.youtube.com/watch?v=CGfM-PN3qcs"
     }
@@ -72,6 +72,14 @@ function render(step) {
     let extraHTML = "";
     if (step.image) {
         extraHTML += `<img src="${step.image}" class="step-image">`;
+    }
+    if (step.video) {
+    extraHTML += `
+        <div class="music-card">
+            <img src="https://img.youtube.com/vi/${step.video}/hqdefault.jpg">
+            <a href="https://www.youtube.com/watch?v=${step.video}" target="_blank">▶ Xem clip</a>
+        </div>
+    `;
     }
     if (step.music) {
         const videoId = step.music.split("v=")[1];
