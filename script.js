@@ -15,13 +15,19 @@ const steps = [
         button: "Tiếp."
     },
     {
+        title: "Quà của b đây.",
+        description: ":))).",
+        button: "Tiếp.",
+        image: "assets/images/money.jpg" 
+    },
+    {
         title: ":)))",
         description: "Bố mất công code đấy.",
         button: "Tiếp."
     },
     {
-        title: "Cái này nữa.",
-        description: "Như bìu.",
+        title: "Đùa th, đây ms quà thật.",
+        description: "...",
         button: "Tiếp.",
         image: "assets/images/selfie.jpg" 
     },
