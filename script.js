@@ -1,6 +1,6 @@
 const steps = [
     {
-        title: "Ê thằng lon.",
+        title: "Ê thằng lz.",
         description: "Bố có cái này.",
         button: "Bấm nút."
     },
@@ -27,8 +27,8 @@ const steps = [
         image: "assets/images/money.jpg" 
     },
     {
-        title: "...",
-        description: "CÓ CÁI L!",
+        title: "CÓ CÁI L!",
+        description: "...",
         button: "Không đùa nx, tiếp theo là quà thật.",
         image: "assets/images/selfie.jpg" 
     },
