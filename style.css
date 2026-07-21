@@ -26,7 +26,7 @@ body {
     border-radius: 20px;
     padding: 40px;
     text-align: center;
-    transition: opacity 0.25s;
+    transition: opacity 0.25s ease;
 }
 .fade {
     opacity: 0;
@@ -39,7 +39,7 @@ body {
 }
 
 .buttons button {
-    min-width: 160px;
+    min-width: 120px;
 }
 #back-btn {
     display: none;
