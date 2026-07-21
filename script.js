@@ -18,7 +18,7 @@ const steps = [
         title: "Nên là...CMSN?",
         description: "Điểm Văn tôi như bìu nên để anh ở dưới chúc b nhé.",
         button: "Tiếp.",
-        video: "https://www.youtube.com/watch?v=rxxPqzRHsGA"
+        video: "rxxPqzRHsGA"
     },
     {
         title: "Còn đây là quà của b.",
